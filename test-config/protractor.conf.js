@@ -17,6 +17,12 @@ exports.config = {
   ],
   capabilities: {
     'browserName': 'chrome',
+    'chromeOptions': {
+      'args': ['show-fps-counter=true'],
+      'mobileEmulation' : {
+        'deviceName': 'Galaxy S5'
+      }
+    },
     'loggingPrefs': {
       'driver': 'WARNING',
       'server': 'WARNING',

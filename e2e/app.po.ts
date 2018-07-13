@@ -3,7 +3,7 @@ import { browser, by, element } from 'protractor';
 export class Page {
 
   navigateTo(destination) {
-    //browser.waitForAngularEnabled(false);
+    //browser.manage().window().setSize(320, 480);
     return browser.get(destination);
   }
 
