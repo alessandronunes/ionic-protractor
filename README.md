@@ -1,4 +1,3 @@
-# ionicdemo
-Ionic 3
+# ionic-protractor
 
-Demo for testing purpose only.
+Ionic 3 example using protractor and protractor-jasmine2-screenshot-reporter.
